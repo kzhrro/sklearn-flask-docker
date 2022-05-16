@@ -1,7 +1,5 @@
 # sklearn-flask-docker
-An example of deploying a sklearn model using Flask using a Docker container.
-
-This tutorial requires basic Docker knowledge.
+My Dockerfile trains the model. To create the url page, you need to 'let go' Docker Build (docker build --tag chrisalbon / sklearn-flask-docker.), Then run Docker (run docker -p 3000: 3333 -d --name sklearn-flask-docker chrisalbon / sklearn-kolba-docker: the last one).
 
 ## Steps:
 
